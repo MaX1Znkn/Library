@@ -1,0 +1,91 @@
+body {
+	background-image: url(https://i.pinimg.com/originals/e2/5d/fd/e25dfd426d73449a2d28e840aa1ee4ce.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+#container1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+/* Button "Add Book" */
+button:not(#hideButton) {
+	margin: 10px;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+	font-size: 15pt;
+	font-family: cursive;
+	border-radius: 10px;
+}
+button:hover {
+	color: white;
+	border: 2px solid rgb(255, 254, 174);
+}
+button:focus {
+	outline: 0;
+}
+
+/* Title "My Library */
+#library {
+	text-align: center;
+	font-size: 40pt;
+	font-family: cursive;
+	color: white;
+}
+
+/* Form and Fieldset */
+form {
+	display: none;
+	width: 28%;
+}
+fieldset legend {
+	text-align: center;
+}
+fieldset {
+	font-family: cursive;
+	color: white;
+	border: 2px solid white;
+}
+
+/* Labels and inputs */
+#submit,
+#hideButton {
+	font-family: cursive;
+	font-size: 12pt;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+}
+#submit:hover,
+#hideButton:hover {
+	color: white;
+	border: 2px solid rgb(255, 254, 174);
+}
+input:focus {
+	outline: 0;
+}
+input:not(#submit) {
+	float: right;
+}
+#pSubmit {
+	text-align: center;
+}
+
+.bookInfo {
+	font-family: cursive;
+	font-size: 12pt;
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+}
